@@ -1,0 +1,27 @@
+.env
+secrets/
+data/
+
+# knowledge/ CO theo doi phien ban — day la tai san kho lam lai nhat cua bot, va
+# nhan vien sua duoc no thang tu Zalo bang /themtrang. Mot lenh /xoatrang go nham
+# chi de lai dung mot ban .md.bak; co git thi luon lui lai duoc.
+#
+# NEU DAY REPO NAY LEN GITHUB THI PHAI DE PRIVATE:
+# knowledge/wiki/internal/ chua gia von, bien loi nhuan, kich ban noi bo.
+knowledge/**/*.md.bak
+knowledge/raw/
+
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.DS_Store
+
+# Ban sao skill do cong cu khac tu sinh ra. KHONG dua vao repo:
+# `.agents/skills/khoi-tao/SKILL.md` tung xuat hien voi chu "claude" bi thay may
+# moc thanh "Codex", tao ra cau tu mau thuan ("Codex khong quet thu muc .Codex/").
+# Nguon su that la HUONG-DAN-AGENT.md + PHONG-VAN.md — mot ban sao thu ba chi
+# de lech nhau roi lam hoc vien doc nham.
+.agents/
